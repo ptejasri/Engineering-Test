@@ -5,7 +5,7 @@ import os
 
 @pytest.fixture
 def input_value():
-   input = r'C:\Users\tpamarth\PROJECTS\tumli\Engineering Test Risk Analytics\Engineering Test Files'
+   input = r'C:\Users\tpamarth'
    return input
 
 def test_directory_exists(input_value):
